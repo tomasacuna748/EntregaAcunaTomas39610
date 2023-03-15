@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    
+    
+    
+}
+::before::after {
+    box-sizing: inherit;
+}
+
+.bkground {
+    margin-top: 12rem;
+    background-color: #B9E8F5;
+}
+
+
+.navBarC{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(#2d8ba5, #92D6E8 50%);
+    z-index: 1000;
+}
+
+.navBarC a{
+    font-size: 4rem;
+      font-weight: 1000;
+      margin: 1rem 3rem 2rem 0rem;
+      padding: 0rem 0.5rem 1rem 1rem;
+      text-decoration: none;
+      text-align: center;
+    color: orange;
+}
+
+.logo {
+    height: 6rem;
+}
+
+.titular{
+    color: #8B0000;
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+}
+
+.tituloObjeto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    line-height: 3;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5rem;
+    margin-bottom: 5rem;
+    background-image: linear-gradient(to bottom right, #92D6E8, #2d8ba5, #92D6E8); 
+}
+.cardLeft{
+    padding: 3rem;
+    margin: 2rem 2rem 2rem 2rem;
+    border: 5px solid black;
+    color: #000000;
+    font-size: 3rem;
+    width: 25rem;
+    text-align: center;
+}
+.cardRight{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        color:green;
+}
